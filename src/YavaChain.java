@@ -13,7 +13,7 @@ public class YavaChain {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Welcome to YavaChain\n--------------");
+        System.out.println("Welcome to YavaChain\n--------------------");
         System.out.println("How many blocks would you like to mine? (Default 3)");
         int blocks = in.nextInt();
 
@@ -63,6 +63,7 @@ public class YavaChain {
                 return false;
             }
         }
+
         return true;
     }
 }
